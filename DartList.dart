@@ -41,7 +41,15 @@ numbers.removeAt(0); // Remove item at index 0
 print("After Removing at index 0: $numbers");
 
 
+// Make a mix list 
 
+var mixList = [1,2,3,"Jeevan", true, 3.14];
 
+print(mixList);
+
+// Remove item from mixlist 
+// mixList.remove("jeevan")
+mixList.removeAt(3);
+print("$mixList");
 
 }
