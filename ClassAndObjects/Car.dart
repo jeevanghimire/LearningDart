@@ -11,12 +11,7 @@ class Car{
   }
 
   // initilizing the constructor
-  Car(String brand, String model, int year){
-    this.brand = brand;
-    this.model = model;
-    this.year = year;
-  }
-
+  Car(this.brand,this.model,this.year);
 
   void StartEngine(){
     print("The car $brand of model $model and year $year is starting engine");
